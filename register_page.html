@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Card Learning</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="card_learning.css"/>
+            <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <div class="bandeau1">
+                <a href="premiere_page.html"><img id="logocorner" src="LOGO_WHITE.png"></a>
+            </div>
+        </header>
+        <h2>FORMULAIRE D'INSCRIPTION</h2>
+        <p class="register"><img id="notepad"src="notepad.png"></p>
+        <fieldset>
+            <p>
+            <table class="form_register">
+                <tr>
+                    <td><label>Pseudo : </label></td>
+                    <td><input type="text" name="pseudo" placeholder="joueur123" required=""></td>
+                </tr>
+                <tr>
+                    <td><label>Prenom : </label></td>
+                    <td><input type="text" name="prenom" placeholder="Prenom"></td>
+                </tr>
+                <tr>
+                    <td><label>Nom : </label></td>
+                    <td><input type="text" name="nom" placeholder="Nom"></td>
+                </tr>
+                <tr>
+                    <td><label>Sexe : </label></td>
+                    <td class="sexe">
+                        Homme<input type="radio" name="sexe" value="H" checked="checked">
+                        Femme<input type="radio" name="sexe" value="F">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Email : </label></td>
+                    <td><input type="email" name="email" placeholder="email@exemple.fr"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="email" name="verif_email" placeholder="Confirmez votre email"></td>
+                </tr>
+                <tr>
+                    <td><label>Mot de passe : </label></td>
+                    <td><input type="password" name="password" placeholder="Choisissez un mot de passe"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="password" name="verif_password" placeholder="Confirmez votre mot de passe"></td>
+                </tr>
+                <tr class="end_tab">
+                    <td colspan="2">
+                        <input type="submit" value="Valider"/>
+                        <a href="register_page.html"></a><input type="reset" value="Effacer"/></a>
+                    </td>
+				</tr>
+            </table>
+            </p>
+        </fieldset>
+    </body>
+</html>
